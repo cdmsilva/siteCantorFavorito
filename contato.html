@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique e Juliano</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="musicas.html">Música</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <form>
+        <label for="nome"><strong>Nome:</strong></label><br>
+        <input type="text" id="nome" style="margin-bottom: 20px; border-radius:5px;" nome="nome"><br>
+
+        <label for="idade"><strong>Idade:</strong></label><br>
+        <input type="number" id="idade" style="margin-bottom: 20px; border-radius: 5px;" nome="idade"><br>
+
+        <label for="email"><strong>Email:</strong></label><br>
+        <input type="email" id="email" style="margin-bottom: 20px; border-radius: 5px;" nome="email"><br>
+
+        <label for="musica"><strong>Qual sua música favorita da dupla Henrique e Juliano dessa
+                lista?</strong></label><br>
+        <select id="musica" style="margin-bottom: 60px; border-radius: 15px;" nome="musica">
+            <option value="liberdadeProvisoria">Liberdade Provisória</option>
+            <option value="recaidas">Recaídas</option>
+            <option value="florBeijaFlor">Flor e o Beija-Flor</option>
+            <option value="cuidaBemDela">Cuida Bem Dela</option>
+            <option value="aquelaPessoa">Aquela Pessoa</option>
+        </select><br>
+
+        <label>Mensagem</label><br>
+        <textarea placeholder="Digite sua mensagem" minlength="30" style="border-radius: 5px;"></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>Criado por Crisitan Silva</footer>
+</body>
+
+</html>

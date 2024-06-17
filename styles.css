@@ -1,0 +1,56 @@
+body {
+    background-color: #c7c5bd;
+    color: black;
+    font-size: 25px;
+}
+
+header>nav>a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: aliceblue;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.imagem {
+    border-radius: 40px;
+    width: 600px;
+}
+
+iframe {
+    border-radius: 5px;
+    width: 400px;
+    margin: 20px;
+}
+form{
+    display: inline-block;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #c7c5bd;
+}
